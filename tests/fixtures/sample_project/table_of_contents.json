@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "group-intro",
+      "type": "group",
+      "title": "Introduction",
+      "slug": "introduction",
+      "items": [
+        {
+          "id": "doc-overview",
+          "type": "article",
+          "title": "Overview",
+          "slug": "overview"
+        },
+        {
+          "id": "doc-authentication",
+          "type": "article",
+          "title": "Authentication",
+          "slug": "authentication"
+        }
+      ]
+    },
+    {
+      "id": "doc-errors",
+      "type": "article",
+      "title": "Error Handling",
+      "slug": "error-handling"
+    }
+  ]
+}
