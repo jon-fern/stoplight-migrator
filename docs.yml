@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
+
+instances:
+  - url: offsite-jon.docs.buildwithfern.com
+title: Offsite Jon Documentation
+
+layout:
+  searchbar-placement: header
+  tabs-placement: header
+  page-width: full
+  
+navigation:
+  - page: Home
+  - path: home.mdx
+
+colors:
+  accent-primary:
+    light: '#009E97'
+    dark: '#009E97'
+
+logo:
+  light: docs/assets/clearpay-logo-light.svg
+  dark: docs/assets/clearpay-logo-dark.svg
+  height: 24
+  href: /home
+
+favicon: docs/assets/favicon.png
+css: ./docs/styles/styles.css
+js: ./docs/scripts/consent-cookies.js
+
